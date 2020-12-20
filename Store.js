@@ -4,7 +4,6 @@ import thunk from 'redux-thunk';
 import {composeWithDevTools} from 'redux-devtools-extension';
 import rootreducer from './Reducer';
 
-
 const initialstate={};
 
 const middleware = [thunk];
